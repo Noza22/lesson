@@ -1,0 +1,54 @@
+.table {
+    border: 2px solid;
+}
+
+.header {
+    border-bottom: 2px solid;
+    padding: 5px 10px;
+}
+
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+}
+
+.body>div {
+    height: 200px;
+    border: 2px solid;
+    box-sizing: border-box;
+}
+
+.body .whole_line {
+    width: 100%;
+    height: 150px;
+    background: green;
+}
+
+.ball,
+.coloured {
+    flex-basis: calc(100% / 3 - 7px);
+}
+
+.ball {
+    background: url(../images/spring.jpg) center no-repeat;
+    background-size: cover;
+}
+
+/* .body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    gap: 10px;
+}
+
+.body>div {
+    height: 200px;
+}
+
+.whole_line {
+    grid-column: 1/4;
+    height: 100px;
+    background: green;
+} */
