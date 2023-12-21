@@ -35,20 +35,3 @@
     background: url(../images/spring.jpg) center no-repeat;
     background-size: cover;
 }
-
-/* .body {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 10px;
-    gap: 10px;
-}
-
-.body>div {
-    height: 200px;
-}
-
-.whole_line {
-    grid-column: 1/4;
-    height: 100px;
-    background: green;
-} */
